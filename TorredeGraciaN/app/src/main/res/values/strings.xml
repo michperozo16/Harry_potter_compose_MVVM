@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TORRE DE GRACIA NAVARRA</string>
+
+    <string name="btn_instagram">INSTAGRAM</string>
+    <string name="btn_facebook">ITG FACEBOOK</string>
+    <string name="btn_alabanzas">ALABANZAS</string>
+    <string name="btn_Torre">WEB NAVARRA</string>
+    <string name="btn_escuela">ESCUELA</string>
+    <string name="btn_Web_Torre">Web Torre</string>
+    <string name="btn_encuntros">ENCUENTROS</string>
+    <string name="btn_youtube">ITG YOUTUBE</string>
+
+
+    <string name="ministro">MINISTROS</string>
+    <string name="Instagram">Instagram</string>
+    <string name="btn_pagina_principal">WEB PRINCIPAL</string>
+    <string name="btn_pagina_principal_bcn">WEB BARCELONA</string>
+</resources>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_mundo"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:orientation="horizontal"
+            android:background="@drawable/universo">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="08dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_logo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="1dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgVideo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="08dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_video" />
+
+            <ImageView
+                android:id="@+id/imgFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="08dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_facebook" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="1dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_video"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="08dp"
+                android:layout_marginStart="08dp"
+                android:layout_weight="1"
+                android:text="@string/Video"
+                android:backgroundTint="#040303"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/browser_actions_bg_grey"
+                app:cornerRadius="20dp"
+                app:strokeColor="#0077FF"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_Facebook"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="08dp"
+                android:layout_weight="1"
+                android:text="@string/btn_facebook"
+                android:backgroundTint="#040303"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/browser_actions_bg_grey"
+                app:cornerRadius="20dp"
+                app:strokeColor="#0077FF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgDiario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_diario" />
+
+            <ImageView
+                android:id="@+id/imgBiblia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_biblia" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_Diario"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="@string/diario"
+                android:backgroundTint="#040303"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/browser_actions_bg_grey"
+                app:cornerRadius="20dp"
+                app:strokeColor="#0077FF"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_biblia"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="@string/biblia"
+                android:backgroundTint="#040303"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/browser_actions_bg_grey"
+                app:cornerRadius="20dp"
+                app:strokeColor="#0077FF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout12"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagePastor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_pastor" />
+
+            <ImageView
+                android:id="@+id/imagePastora"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_pastora" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout11"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_Pastor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="@string/pastor"
+                android:backgroundTint="#040303"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/browser_actions_bg_grey"
+                app:cornerRadius="20dp"
+                app:strokeColor="#0077FF"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_Pastora"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="@string/pastora"
+                android:backgroundTint="#040303"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/browser_actions_bg_grey"
+                app:cornerRadius="20dp"
+                app:strokeColor="#0077FF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout13"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgAlabanza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_alabanza" />
+
+            <ImageView
+                android:id="@+id/imgMinistro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_ministros" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_Alavanzas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="@string/btn_alabanzas"
+                android:backgroundTint="#040303"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/browser_actions_bg_grey"
+                app:cornerRadius="20dp"
+                app:strokeColor="#0077FF"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_Ministros"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="@string/ministro"
+                android:backgroundTint="#040303"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/browser_actions_bg_grey"
+                app:cornerRadius="20dp"
+                app:strokeColor="#0077FF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout14"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgDiscipulado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:importantForAccessibility="no"
+                app:srcCompat="@drawable/img_logo" />
+
+            <ImageView
+                android:id="@+id/imgInstagram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:importantForAccessibility="no"
+                app:srcCompat="@drawable/img_instagram" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_Discipulado"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="08dp"
+                android:layout_weight="1"
+                android:backgroundTint="#040303"
+                android:text="@string/btn_discipulado"
+                android:textColor="@color/browser_actions_bg_grey"
+                app:cornerRadius="20dp"
+                app:strokeColor="#0077FF" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_Istagram"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="08dp"
+                android:layout_marginStart="08dp"
+                android:layout_weight="1"
+                android:backgroundTint="#040303"
+                android:text="@string/Instagram"
+                android:textColor="@color/browser_actions_bg_grey"
+                app:cornerRadius="20dp"
+                app:strokeColor="#0077FF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout15"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgEncuentro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:importantForAccessibility="no"
+                app:srcCompat="@drawable/img_eneagram" />
+
+            <ImageView
+                android:id="@+id/imgHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:importantForAccessibility="no"
+                app:srcCompat="@drawable/img_home" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_eneagrama"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="08dp"
+                android:layout_weight="1"
+                android:backgroundTint="#040303"
+                android:text="@string/btn_eneagrama"
+                android:textColor="@color/browser_actions_bg_grey"
+                app:cornerRadius="20dp"
+                app:strokeColor="#0077FF" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_home"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="08dp"
+                android:layout_marginStart="08dp"
+                android:layout_weight="1"
+                android:backgroundTint="#040303"
+                android:text="@string/btn_pagina_principal"
+                android:textColor="@color/browser_actions_bg_grey"
+                app:cornerRadius="20dp"
+                app:strokeColor="#0077FF" />
+           </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

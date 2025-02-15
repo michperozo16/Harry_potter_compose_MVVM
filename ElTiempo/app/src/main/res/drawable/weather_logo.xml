@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Círculo de fondo -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"
+        android:alpha="0.9"/>
+    
+    <!-- Sol -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M54,34m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"/>
+    
+    <!-- Rayos de sol -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M54,14L54,22"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M74,34L82,34"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M26,34L34,34"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M67,21L72,16"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M41,21L36,16"/>
+    
+    <!-- Nube principal -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M68,54c0,-7.732 -6.268,-14 -14,-14s-14,6.268 -14,14h-4c0,-9.941 8.059,-18 18,-18s18,8.059 18,18"/>
+    
+    <!-- Nubes pequeñas -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M64,64c0,-5.523 -4.477,-10 -10,-10s-10,4.477 -10,10h-4c0,-7.732 6.268,-14 14,-14s14,6.268 14,14"/>
+    
+    <!-- Gotas de lluvia -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M44,74l2,-4l2,4z"/>
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M54,74l2,-4l2,4z"/>
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M64,74l2,-4l2,4z"/>
+</vector> 

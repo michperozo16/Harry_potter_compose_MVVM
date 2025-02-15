@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ICM NAVARRA</string>
+    <string name="btn_anterior">Anterior</string>
+    <string name="btn_siguinte">Siguiente</string>
+    <string name="textview_vision">Somos un movimiento de Encuentros de Amistad y vivimos para Predicar el evangelio a cada persona,
+        Pastorear a creyentes, Preparar discípulos que forman a otros discípulos y
+        Plantar líderes en cada nación del mundo.
+        Esta es nuestra visión y Propósito.</string>
+
+    <string name="title_la_vision">Nuestra vision</string>
+    <string name="btn_discipulado">Discipulado</string>
+    <string name="btn_facebook">Facebook</string>
+    <string name="btn_alabanzas">Alabanzas</string>
+
+
+    <string name="pastor">Pastor</string>
+    <string name="pastora">Pastora</string>
+    <string name="ministro">Ministro</string>
+    <string name="video">Video</string>
+    <string name="diario">Diario</string>
+    <string name="biblia">Biblia</string>
+    <string name="Video">video</string>
+    <string name="Instagram">Instagram</string>
+    <string name="btn_eneagrama">Eneagrama</string>
+    <string name="btn_pagina_principal">Principal</string>
+</resources>
